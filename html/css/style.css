@@ -1,2 +1,40 @@
 /* CSS Document */
+*{
+	box-sizing: border-box;
+}
 
+body{
+	padding: 10;
+	margin:1 0;
+}
+
+.table{
+	width: 1000px;
+	border: solid #929292 1px;
+	border-collapse: collapse;
+	font-family: Moon;
+}
+
+.table tr:nth-child(even){
+background: #EDEDED;
+	border: none !important;
+}
+.table th{
+text-align: left;
+padding: 6px;
+}
+.table td{
+padding: 6px;
+}
+.table tr:nth-child(odd) td{
+/*	padding: 5px;*/
+	border: solid  1px #929292;
+}
+
+
+/*I frame */
+
+.iframe{
+	height:  200px;
+	width: 1000px;
+}
